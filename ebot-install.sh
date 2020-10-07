@@ -312,7 +312,7 @@ DELAY_READY = true' > /home/ebot/ebot-csgo/config/config.ini
 	rm -R master*
 	wget https://github.com/CSTLeagueORG/eBotEX-WEB/archive/master.zip
 	unzip master.zip
-	mv eBotEX-Web-master ebot-web
+	mv eBotEX-WEB-master ebot-web
 	cd ebot-web
 	# cp config/app_user.yml.default config/app_user.yml
 	
