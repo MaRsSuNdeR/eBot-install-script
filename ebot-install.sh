@@ -226,9 +226,9 @@ else
 	
 	mkdir /home/ebot
 	cd /home/ebot
-	wget https://github.com/deStrO/eBot-CSGO/archive/master.zip
+	wget https://github.com/CSTLeagueORG/eBotEX-CSGO/archive/master.zip
 	unzip master.zip
-	mv eBot-CSGO-master ebot-csgo
+	mv eBotEX-CSGO-master ebot-csgo
 	cd ebot-csgo
 	curl --silent --location https://deb.nodesource.com/setup_0.12 | bash -
 	
@@ -310,9 +310,9 @@ DELAY_READY = true' > /home/ebot/ebot-csgo/config/config.ini
 	
 	cd /home/ebot
 	rm -R master*
-	wget https://github.com/deStrO/eBot-CSGO-Web/archive/master.zip
+	wget https://github.com/CSTLeagueORG/eBotEX-WEB/archive/master.zip
 	unzip master.zip
-	mv eBot-CSGO-Web-master ebot-web
+	mv eBotEX-Web-master ebot-web
 	cd ebot-web
 	# cp config/app_user.yml.default config/app_user.yml
 	
